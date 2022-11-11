@@ -1527,6 +1527,7 @@ section {
 --------------------------------------------------------------*/
 .hero {
   width: 100%;
+  background-image: url('../img/slide-4.jpg');
   background-size: cover;
   position: relative;
   min-height: 60vh;
