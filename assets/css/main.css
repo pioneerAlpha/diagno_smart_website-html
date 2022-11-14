@@ -77,7 +77,7 @@ section {
   margin: 0;
   font-size: 48px;
   font-weight: 400;
-  font-family: var(--font-primary);
+  font-family: var(--font-secondary);
 }
 
 .section-header p span {
@@ -1693,4 +1693,8 @@ section {
 
 .footer .credits a {
   color: #fff;
+}
+
+.soon{
+  font-family: var(--font-primary);
 }
