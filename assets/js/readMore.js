@@ -27,6 +27,12 @@ const readMore = (element) => {
     } else {
       element.textContent = `${trimmedText}...`;
       seeMoreBtn.textContent = "read more";
+      //   scroll to the .chefs section
+      const chefsSection = document.querySelector(".chefs");
+      chefsSection.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
     }
   });
 };

@@ -25,6 +25,7 @@
 body {
   font-family: var(--font-default);
   color: var(--color-default);
+  scroll-behavior: smooth;
 }
 
 a {
@@ -1126,7 +1127,7 @@ section {
   display: inline-block;
   padding: 12px 36px;
   border-radius: 50px;
-  border:none;
+  border: none;
   outline: none;
   transition: 0.5s;
   color: #fff;
@@ -1138,7 +1139,6 @@ section {
   background: rgba(206, 18, 18, 0.8);
   box-shadow: 0 8px 28px rgba(206, 18, 18, 0.45);
 }
-
 
 .chefs .chef-member .member-img {
   position: relative;
